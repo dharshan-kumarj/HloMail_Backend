@@ -1,0 +1,17 @@
+{
+  "smtp": {
+    "host_email": "jdharshankumar18@gmail.com",
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "smtp_username": "jdharshankumar18@gmail.com",
+    "smtp_password": "irrt dkal mbgp gozn"
+  },
+  "database": {
+    "db_hostname": "cluster0.bqh5ucz.mongodb.net",
+    "db_port": 27017,
+    "db_username": "homail",
+    "db_password": "RUk5hr7hp1zIcPGb",
+    "db_name": "hlomail_db",
+    "connection_string": "mongodb+srv://homail:RUk5hr7hp1zIcPGb@cluster0.bqh5ucz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+  }
+}
