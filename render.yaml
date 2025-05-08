@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: hlomail-api
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: MONGODB_URI
+        value: mongodb+srv://homail:RUk5hr7hp1zIcPGb@cluster0.bqh5ucz.mongodb.net/?retryWrites=true&w=majority
+      - key: SECRET_KEY
+        value: your-secret-key
+      - key: PYTHONPATH
+        value: .

@@ -185,6 +185,10 @@ async def verify_user(request_model: VerifyRequest):
     result = await auth.verify(request_model.email, request_model.otp)
     return JSONResponse(content=result)
 
+@app.get("/health")
+def health_check():
+    return {"status": "ok"}
+
 
 @app.post("/login")
 async def login_user(request: Request, request_model: LoginRequest):
