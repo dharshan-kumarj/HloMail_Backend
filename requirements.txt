@@ -12,3 +12,4 @@ email-validator==2.0.0
 python-multipart==0.0.6
 gunicorn==21.2.0
 pytz==2023.3
+svgwrite==1.4.3
