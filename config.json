@@ -1,10 +1,10 @@
 {
   "smtp": {
-    "host_email": "jdharshankumar18@gmail.com",
+    "host_email": "hlomailapi@gmail.com",
     "smtp_server": "smtp.gmail.com",
     "smtp_port": 587,
-    "smtp_username": "jdharshankumar18@gmail.com",
-    "smtp_password": "irrt dkal mbgp gozn"
+    "smtp_username": "hlomailapi@gmail.com",
+    "smtp_password": "wycx xhes zvjy ycxq"
   },
   "database": {
     "db_hostname": "cluster0.bqh5ucz.mongodb.net",
