@@ -3,7 +3,7 @@
     "host_email": "no-reply@hlomail.in",
     "smtp_server": "smtp.gmail.com",
     "smtp_port": 587,
-    "smtp_username": "no-reply@hlomail.in",
+    "smtp_username": "hlomailapi@gmail.com",
     "smtp_password": "wycx xhes zvjy ycxq"
   },
   "database": {
